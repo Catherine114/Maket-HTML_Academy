@@ -86,8 +86,9 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	font-size: 50px;
-	width: 480px;
+	width: 610px;
 	color: #533738;
+	text-transform: uppercase;
 	padding-bottom: 25px;
 }
 
@@ -115,6 +116,49 @@ body{
 	list-style: none;
 	padding-top: 12px;
 	text-align: center;
+}
+
+.main__about{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	color: #533738;
+}
+
+.about__heading{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 40px;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.about__content{
+	display: flex;
+	justify-content: center;
+}
+
+.about__img{
+	padding: 30px;
+	width: 444,54px;
+    height: 572,39px;
+}
+
+.about__text{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	width: 530px;
+	padding: 30px; 
+}
+
+.main__info{
+	background: #8D7370;
 }
 
 .footer{
