@@ -55,7 +55,7 @@ body{
 }
 
 .logo__img{
-	display: 
+	display: flex;
 	width: 25px;
 	height: 25px;
 	left: 98px;
@@ -201,7 +201,6 @@ body{
 
 .gallery__block{
 	display: flex;
-
 }
 
 .gallery__photo {
@@ -222,9 +221,11 @@ body{
 }
 
 .gallery__restangle{
-	width: 488px;
-	height: 451px;
+	width: 500px;
+	height: 488px;
 	background: rgba(100, 72, 69, 0.7);
+	margin-bottom: 20px;
+	margin-right: 20px;
 }
 
 .gallery__text{
@@ -382,8 +383,8 @@ body{
 }
 
 .main__reviews{
-	margin-left: 180px;
-	margin-right: 180px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .reviews__heading{
@@ -425,6 +426,13 @@ body{
 
 .reviews__wrapper__text{
 	padding-right: 20px;
+	padding-left: 30px;
+}
+
+.reviews__wrapper__img{
+	display: flex;
+	flex-direction: column;
+	padding-right: 30px;
 }
 
 .reviews__img{
@@ -440,7 +448,10 @@ body{
 	justify-content: center;
 	align-items: center;
 	background: #CC8B86;
-	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+button:active{
+    outline: none;
 }
 
 .footer{
