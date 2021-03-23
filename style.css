@@ -139,6 +139,8 @@ body{
 .about__content{
 	display: flex;
 	justify-content: center;
+	margin-left: 150px;
+	margin-right: 100px;
 }
 
 .about__img{
@@ -153,12 +155,76 @@ body{
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 30px;
-	width: 530px;
+	width: 520px;
 	padding: 30px; 
 }
 
 .main__info{
 	background: #8D7370;
+}
+
+.info{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.info__text{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-transform: uppercase;
+}
+
+.info__number{
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 62px;
+}
+
+.info__common{
+	display: inline;
+	padding: 80px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 120px;
+	margin-right: 100px;
+}
+
+.info__el{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.main__gallery{
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 100%;
+}
+
+.gallery__block{
+	display: flex;
+
+}
+
+.gallery__block > img {
+	padding-bottom: 30px;
+	margin-right: 20px;
+}
+
+.gallery__heading{
+	color: #533738;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	margin-top: 55px;
+	margin-bottom: 30px;
 }
 
 .footer{
