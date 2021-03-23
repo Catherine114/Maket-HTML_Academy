@@ -140,7 +140,7 @@
 			<h2 class="reviews__heading">Отзывы</h2>
 			<div class="reviews__wrapper">
 				<button class="reviews__round round__left">
-					<h4><-</h4>
+					<h4 class="round__text"><</h4>
 				</button>
 				<div class="reviews__wrapper__text">
 					<p class="reviews__text">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.<br>
@@ -155,27 +155,31 @@
 					<img class="reviews__img" src="p11.png">
 				</div>
 				<button class="reviews__round round__right">
-					<h4>-></h4>
+					<h4 class="round__text">></h4>
 				</button>
 			</div>
 		</section>
 
-		<section>
-			<div>
-				<h2>Оставить заявку</h2>
-				<p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-				<form action="" class="ui-form">
-			        <div class="form-row">
-			            <input type="text" id="name" required autocomplete="off"><label for="name">Ваше имя</label>
-			        </div>        
-			        <div class="form-row">
-			            <input type="text" id="subject" required autocomplete="off"><label for="email">Ваш телефон</label>
-			        </div>
-			        <button class="buttom" type="submit" value="SEND MESSAGE"><h3 class="h3">Отправить заявку</h3></button>
-			    </form>
-			</div>
-			<div>
-				<img src="karta.png">
+		<section class="main__connection connection">
+			<div class="connection__wrapper">
+				<div>
+					<h2 class="connection__heading">Оставить заявку</h2>
+					<p class="connection__text">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+					<form action="" class="ui-form">
+				        <div class="form-row">
+				        	<label for="name">Ваше имя</label>
+				            <input type="text" id="name" required autocomplete="off">
+				        </div>        
+				        <div class="form-row">
+				        	<label for="email">Ваш телефон</label>
+				            <input type="text" id="subject" required autocomplete="off">
+				        </div>
+				        <button class="button" type="submit" value="SEND MESSAGE"><h3 class="h3">Оставить заявку</h3></button>
+				    </form>
+				</div>
+				<div>
+					<img src="karta.png">
+				</div>
 			</div>
 		</section>
 	</main>
