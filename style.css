@@ -287,7 +287,7 @@ body{
 
 .main__team{
 	background-color: #E2C4BA;
-	height: 998px;
+	height: 618px;
 	padding-left: 180px;
 	padding-right: 180px; 
 }
@@ -311,8 +311,8 @@ body{
 }
 
 .team__wrapper > div {
- margin-left: 20px;
- margin-bottom: 7px;
+	 margin-left: 20px;
+	 margin-bottom: 7px;
 }
 
 .team__text{
@@ -322,6 +322,49 @@ body{
 	font-size: 18px;
 	line-height: 30px;
 	color: #533738;
+}
+
+.team__work{
+	background-color: #E2C4BA;
+	height:360px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.work__heading{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #533738;
+	display: flex;
+	justify-content: center;
+	padding: 35px;
+}
+
+.work__wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.work__element{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.work__text{
+	color: #533738;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px;
 }
 
 .footer{
