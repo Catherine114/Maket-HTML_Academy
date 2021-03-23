@@ -210,8 +210,8 @@ body{
 
 }
 
-.gallery__block > img {
-	padding-bottom: 30px;
+.gallery__block > img, div {
+	margin-bottom: 20px;
 	margin-right: 20px;
 }
 
@@ -225,6 +225,36 @@ body{
 	line-height: 50px;
 	margin-top: 55px;
 	margin-bottom: 30px;
+}
+
+.gallery__restangle{
+	width: 488px;
+	height: 451px;
+	background: rgba(100, 72, 69, 0.7);
+}
+
+.gallery__text{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #533738;
+}
+
+.gallery__line{
+	border: 1px solid #533738;
+	box-sizing: border-box;
+	color: #533738;
+	width: 60px;
+	height: 0px;
+}
+
+.gallery__content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px; 
 }
 
 .footer{
