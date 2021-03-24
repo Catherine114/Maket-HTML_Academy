@@ -11,35 +11,35 @@
 <body>
 	<header class="header">
 		<section class="header__menu menu">
-			<a href="" class="menu__logo logo">
-				<img class="logo__img" src="risynok1.png">
-				<h1 class="logo__text">SCANDI</h1>
-			</a>
-			<nav class="menu__nav nav">
-				<ul class="nav__list">
-					<li class="nav__item">
-						<a href="" class="nav__link">О компании</a>
-					</li>
-					<li class="nav__item">
-						<a href="" class="nav__link">Портфолио</a>
-					</li>
-					<li class="nav__item">
-						<a href="" class="nav__link">Команда</a>
-					</li>					
-					<li class="nav__item">
-						<a href="" class="nav__link">Как мы работаем</a>
-					</li>
-					<li class="nav__item">
-						<a href="" class="nav__link">Отзывы клиентов</a>
-					</li>
-					<li class="nav__item">
-						<a href="" class="nav__link">Оставить заявку</a>
-					</li>
-					<li class="nav__item">
-						<a href="" class="nav__link">+7 (981) 857-46-24</a>
-					</li>
-				</ul>
-			</nav>
+				<a href="" class="menu__logo logo">
+					<img class="logo__img" src="risynok1.png">
+					<h1 class="logo__text">SCANDI</h1>
+				</a>
+				<nav class="menu__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="" class="nav__link">О компании</a>
+						</li>
+						<li class="nav__item">
+							<a href="" class="nav__link">Портфолио</a>
+						</li>
+						<li class="nav__item">
+							<a href="" class="nav__link">Команда</a>
+						</li>					
+						<li class="nav__item">
+							<a href="" class="nav__link">Как мы работаем</a>
+						</li>
+						<li class="nav__item">
+							<a href="" class="nav__link">Отзывы клиентов</a>
+						</li>
+						<li class="nav__item">
+							<a href="" class="nav__link">Оставить заявку</a>
+						</li>
+						<li class="nav__item">
+							<a href="" class="nav__link">+7 (981) 857-46-24</a>
+						</li>
+					</ul>
+				</nav>
 		</section>
 
 		<section class="header__promo promo">
@@ -90,7 +90,7 @@
 			<div class="gallery__content">
 				<p class="gallery__text">Смотреть еще</p>
 				<div class="gallery__line"></div>
-			</div>
+			<div>
 		</section>
 
 		<section class="main__team comand">
@@ -166,16 +166,18 @@
 					<h2 class="connection__heading">Оставить заявку</h2>
 					<p class="connection__text">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
 					<form action="" class="ui-form">
-				        <div class="form-row">
-				        	<label for="name">Ваше имя</label>
-				            <input type="text" id="name" required autocomplete="off">
-				        </div>        
-				        <div class="form-row">
-				        	<label for="email">Ваш телефон</label>
-				            <input type="text" id="subject" required autocomplete="off">
-				        </div>
-				        <button class="button" type="submit" value="SEND MESSAGE"><h3 class="h3">Оставить заявку</h3></button>
-				    </form>
+					    <div class="form-row">
+					        <label for="name">Ваше имя</label>
+					        <input type="text" id="name" required autocomplete="off">
+					    </div>        
+					    <div class="form-row">
+					        <label for="email">Ваш телефон</label>
+					        <input type="text" id="subject" required autocomplete="off">
+					    </div>
+					    <button class="button" type="submit" value="SEND MESSAGE">
+					    	<h3 class="h3">Оставить заявку</h3>
+					    </button>
+					</form>
 				</div>
 				<div>
 					<img src="karta.png">
@@ -185,9 +187,11 @@
 	</main>
 
 	<footer class="footer">
-			<p class="footer__text">+7 (981) 857-46-24</p>
+		<div class="footer__wrapper">
+			<a href="" class="footer__text">+7 (981) 857-46-24</a>
 			<p class="footer__text">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
 			<p class="footer__text">ИП Королёва А.А.</p>
+		</div>
 	</footer>
 </body>
 </html>
