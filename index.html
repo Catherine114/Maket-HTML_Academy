@@ -12,28 +12,28 @@
 	<header class="header">
 		<section class="header__menu menu">
 				<a href="" class="menu__logo logo">
-					<img class="logo__img" src="risynok1.png">
+					<img class="logo__img" alt="logo" src="risynok1.png">
 					<h1 class="logo__text">SCANDI</h1>
 				</a>
 				<nav class="menu__nav nav">
 					<ul class="nav__list">
 						<li class="nav__item">
-							<a href="" class="nav__link">О компании</a>
+							<a href="#about" class="nav__link">О компании</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Портфолио</a>
+							<a href="#port" class="nav__link">Портфолио</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Команда</a>
+							<a href="#we" class="nav__link">Команда</a>
 						</li>					
 						<li class="nav__item">
-							<a href="" class="nav__link">Как мы работаем</a>
+							<a href="#work" class="nav__link">Как мы работаем</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Отзывы клиентов</a>
+							<a href="#otz" class="nav__link">Отзывы клиентов</a>
 						</li>
 						<li class="nav__item">
-							<a href="" class="nav__link">Оставить заявку</a>
+							<a href="#zav" class="nav__link">Оставить заявку</a>
 						</li>
 						<li class="nav__item">
 							<a href="" class="nav__link">+7 (981) 857-46-24</a>
@@ -49,10 +49,10 @@
 		</section>
 	</header>
 	<main class="main">
-		<section class="main__about about">
+		<section class="main__about about" id="about">
 			<h2 class="about__heading">О нас</h2>
 			<div class="about__content">
-				<img class="about__img" src="p2.png">
+				<img class="about__img" alt="flowers" src="p2.png">
 				<p class="about__text">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.  
 					<br><br>
 				Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
@@ -77,41 +77,44 @@
 			</ul>
 		</section>
 
-		<section class="main__gallery gallery">
+		<section class="main__gallery gallery" id="port">
 			<h2 class="gallery__heading">Наши работы</h2>
 			<div class="gallery__block">
-				<div class="gallery__restangle"></div>
-				<img class="gallery__photo" src="p4.png">
+				<div class="gallery__restangle">
+					<h2 class="restangle__title">Квартира-студия 30 кв.м.</h2>
+					<p class="restangle__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+				</div>
+				<img class="gallery__photo" alt="accepted the work" src="p4.png">
 			</div>
 			<div class="gallery__block">
-				<img class="gallery__photo" src="p5.png">
-				<img class="gallery__photo" src="p6.png">
+				<img class="gallery__photo" alt="accepted the work" src="p5.png">
+				<img class="gallery__photo" alt="accepted the work" src="p6.png">
 			</div>
 			<div class="gallery__content">
 				<p class="gallery__text">Смотреть еще</p>
 				<div class="gallery__line"></div>
-			<div>
+			</div>
 		</section>
 
-		<section class="main__team comand">
+		<section class="main__team comand" id="we">
 			<h2 class="team__heading">команда</h2>
 			<div class="team__wrapper">
 				<div class="team__wrapper__block">
-					<img src="p7.png" class="team__pictire">
+					<img src="p7.png" alt="team member" class="team__pictire">
 					<p class="team__text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</p>
 				</div>
 				<div class="team__wrapper__block">
-					<img src="p8.png" class="team__pictire">
+					<img src="p8.png" alt="team member" class="team__pictire">
 					<p class="team__text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</p>
 				</div>
 				<div class="team__wrapper__block">
-					<img src="p9.png" class="team__pictire">
+					<img src="p9.png" alt="team member" class="team__pictire">
 					<p class="team__text">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обсутроить дом так, чтобы вам понравилось.</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="team__work work">
+		<section class="team__work work" id="work">
 			<h2 class="work__heading">Как мы работаем</h2>
 			<div class="work__wrapper">
 				<div class="work__element">
@@ -136,12 +139,10 @@
 			</div>
 		</section>
 
-		<section class="main__reviews reviews">
+		<section class="main__reviews reviews" id="otz">
 			<h2 class="reviews__heading">Отзывы</h2>
 			<div class="reviews__wrapper">
-				<button class="reviews__round round__left">
-					<h4 class="round__text"><</h4>
-				</button>
+				<button class="reviews__round">&lt</button>
 				<div class="reviews__wrapper__text">
 					<p class="reviews__text">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.<br>
 						<br>
@@ -151,16 +152,14 @@
 					<p class="reviews__text author">АННА БЕЛОВСКАЯ</p>
 				</div>
 				<div class="reviews__wrapper__img">
-					<img class="reviews__img" src="p10.png">
-					<img class="reviews__img" src="p11.png">
+					<img class="reviews__img" alt="" src="p10.png">
+					<img class="reviews__img" alt="" src="p11.png">
 				</div>
-				<button class="reviews__round round__right">
-					<h4 class="round__text">></h4>
-				</button>
+				<button class="reviews__round">&gt</button>
 			</div>
 		</section>
 
-		<section class="main__connection connection">
+		<section class="main__connection connection" id="zav">
 			<div class="connection__wrapper">
 				<div>
 					<h2 class="connection__heading">Оставить заявку</h2>
@@ -168,19 +167,17 @@
 					<form action="" class="ui-form">
 					    <div class="form-row">
 					        <label for="name">Ваше имя</label>
-					        <input type="text" id="name" required autocomplete="off">
+					        <input type="text" id="name" required autocomplete="off" placeholder="Ваше имя">
 					    </div>        
 					    <div class="form-row">
-					        <label for="email">Ваш телефон</label>
-					        <input type="text" id="subject" required autocomplete="off">
+					        <label for="email">Введите телефон</label>
+					        <input type="text" id="email" required autocomplete="off" placeholder="Введите телефон">
 					    </div>
-					    <button class="button" type="submit" value="SEND MESSAGE">
-					    	<h3 class="h3">Оставить заявку</h3>
-					    </button>
+					    <button class="button" type="submit" value="SEND MESSAGE">Оставить заявку</button>
 					</form>
 				</div>
-				<div>
-					<img src="karta.png">
+				<div class="form__karta">
+					<img alt="" src="karta.png">
 				</div>
 			</div>
 		</section>
@@ -190,7 +187,7 @@
 		<div class="footer__wrapper">
 			<a href="" class="footer__text">+7 (981) 857-46-24</a>
 			<p class="footer__text">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
-			<p class="footer__text">ИП Королёва А.А.</p>
+			<p class="footer__text text">ИП Королёва А.А.</p>
 		</div>
 	</footer>
 </body>

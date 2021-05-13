@@ -140,8 +140,8 @@ body{
 
 .about__img{
 	padding: 30px;
-	width: 444,54px;
-    height: 572,39px;
+	width: 444px;
+    height: 572px;
 }
 
 .about__text{
@@ -227,6 +227,11 @@ body{
 	background: rgba(100, 72, 69, 0.7);
 	margin-bottom: 20px;
 	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .gallery__text{
@@ -449,6 +454,8 @@ body{
 	justify-content: center;
 	align-items: center;
 	background: #CC8B86;
+	color: #F5F2ED;
+	font-size: 25px;
 }
 
 .round__text{
@@ -523,6 +530,10 @@ button{
 	font-size: 18px;
 }
 
+.form-row input::placeholder {
+	color: white;
+}
+
 .form-row label {
     color: #F6EDE9;
     font-family: Montserrat;
@@ -531,6 +542,7 @@ button{
 	font-size: 18px;
 	transform: translateY(-35px);
    transition: all 0.2s ease;
+   visibility: hidden;
 }
 
 *:focus {outline: none;}
@@ -551,6 +563,12 @@ button{
 	font-size: 18px;
 	line-height: 30px;
 	text-decoration: none;
+	margin-left: 30px;
+}
+
+.text{
+	margin-left: auto;
+	margin-right: 0;
 }
 
 .footer__wrapper{
@@ -560,9 +578,31 @@ button{
 	align-content: center;
 }
 
-.wrapper{
+.restangle__title{
+	width: 270px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+
+}
+
+.restangle__text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+	width: 418px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.form__karta{
 	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
 }
