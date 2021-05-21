@@ -8,8 +8,8 @@
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 16px;
-	padding-left: 12px;
+	font-size: 1.6rem;
+	padding-left: 1.2rem;
 	color: #533738;
 }
 
@@ -17,6 +17,10 @@ body{
 	height: 100%;
 	background-color: #E5E5E5; 
 	max-width: 1440px;
+}
+
+html{
+	font-size: 62.5%;
 }
 
 .header{
@@ -29,16 +33,16 @@ body{
 .header__menu{
 	display: flex;
 	justify-content: space-between;
-	padding: 5px;
-	margin-right: 100px;
-	margin-left: 100px;
+	padding: 0.5rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
 }
 
 .menu__nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	height: 44px;
+	height: 4.4rem;
 }
 
 .nav__item{
@@ -51,75 +55,75 @@ body{
 	list-style: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 16px;
-	padding-left: 12px;
+	font-size: 1.6rem;
+	padding-left: 1.2rem;
 	color: #533738;
 }
 
 .menu__logo{
 	display: flex;
-	margin-right: 15px;
+	margin-right: 1.5rem;
 	text-decoration: none;
 	list-style: none;
-	height: 44px;
+	height: 4.4rem;
 	align-items: flex-end;
 }
 
 .logo__img{
 	display: flex;
-	width: 25px;
-	height: 25px;
-	left: 98px;
-	top: 36px;
+	width: 2.5rem;
+	height: 2.5rem;
+	left: 9.8rem;
+	top: 3.6rem;
 }
 
 .logo__text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 1.6rem;
 	color: #533738;
 }
 
 .header__promo{
-	margin-bottom: 168px;
-	margin-left: 185px;
-	margin-top: 136px;
+	margin-bottom: 16.8rem;
+	margin-left: 18.5rem;
+	margin-top: 13.6rem;
 	display: flex;
 	flex-direction: column;
 }
 .promo__heading{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 50px;
-	width: 610px;
+	font-size: 5rem;
+	width: 61rem;
 	color: #533738;
 	text-transform: uppercase;
-	padding-bottom: 25px;
+	padding-bottom: 2.5rem;
 }
 
 .promo__text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 18px;
-	width: 440px;
+	font-size: 1.8rem;
+	width: 44rem;
 	color: #533738;
-	padding-bottom: 25px;
+	padding-bottom: 2.5rem;
 }
 
 .promo__button{
 	background: #CC8B86;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	font-size: 20px;
-	width: 250px;
-	padding: 22px;
+	font-size: 2rem;
+	width: 25rem;
+	padding: 2.2rem;
 	color: #533738;
 	cursor: pointer;
 	outline: none;
 	border: 0;
 	text-decoration: none;
 	list-style: none;
-	padding-top: 12px;
+	padding-top: 1.2rem;
 	text-align: center;
 }
 
@@ -127,46 +131,46 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 4rem;
+	line-height: 5rem;
 	color: #533738;
 }
 
 .about__heading{
 	display: flex;
 	justify-content: center;
-	padding: 10px;
-	font-size: 40px;
-	margin-top: 40px;
+	padding: 1rem;
+	font-size: 4rem;
+	margin-top: 4rem;
 	text-transform: uppercase;
 }
 
 .about__content{
 	display: flex;
 	justify-content: center;
-	margin-left: 150px;
-	margin-right: 100px;
+	margin-left: 15rem;
+	margin-right: 10rem;
 }
 
 .about__img{
-	padding: 30px;
-	width: 444px;
-    height: 572px;
+	padding: 3rem;
+	width: 44.4rem;
+    height: 57.2rem;
 }
 
 .about__text{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
-	width: 520px;
-	padding: 30px; 
+	font-size: 1.8rem;
+	line-height: 3rem;
+	width: 52rem;
+	padding: 3rem; 
 }
 
 .main__info{
 	background: #8D7370;
-	height: 273px;
+	height: 27.3rem;
 }
 
 .info{
@@ -177,24 +181,24 @@ body{
 
 .info__text{
 	font-weight: 500;
-	font-size: 30px;
-	line-height: 37px;
+	font-size: 3rem;
+	line-height: 3.7rem;
 	text-transform: uppercase;
 }
 
 .info__number{
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 62px;
+	font-size: 5rem;
+	line-height: 6.2rem;
 }
 
 .info__common{
 	display: inline;
-	padding: 80px;
+	padding: 8rem;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 120px;
-	margin-right: 100px;
+	margin-left: 12rem;
+	margin-right: 10rem;
 }
 
 .info__el{
@@ -202,12 +206,12 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-top: 30px;
+	padding-top: 3rem;
 }
 
 .main__gallery{
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 10rem;
+	margin-right: 10rem;
 }
 
 .gallery__block{
@@ -215,8 +219,8 @@ body{
 }
 
 .gallery__photo {
-	margin-bottom: 20px;
-	margin-right: 20px;
+	margin-bottom: 2rem;
+	margin-right: 2rem;
 }
 
 .gallery__heading{
@@ -225,18 +229,18 @@ body{
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
-	margin-top: 55px;
-	margin-bottom: 30px;
+	font-size: 4rem;
+	line-height: 5rem;
+	margin-top: 5.5rem;
+	margin-bottom: 3rem;
 }
 
 .gallery__restangle{
-	width: 500px;
-	height: 488px;
+	width: 50rem;
+	height: 48.8rem;
 	background: rgba(100, 72, 69, 0.7);
-	margin-bottom: 20px;
-	margin-right: 20px;
+	margin-bottom: 2rem;
+	margin-right: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -248,10 +252,10 @@ body{
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 30px;
-	line-height: 37px;
+	font-size: 3rem;
+	line-height: 3.7rem;
 	color: #533738;
-	padding-right: 10px;
+	padding-right: 1rem;
 }
 
 .gallery__content{
@@ -259,16 +263,16 @@ body{
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	margin: 15px; 
+	margin: 1.5rem; 
 	cursor: pointer;
-	margin-bottom: 55px;
+	margin-bottom: 5.5rem;
 }
 
 .gallery__line {
     position: relative;
-    top: 10px;
-    width: 60px;
-    height: 2px;
+    top: 1rem;
+    width: 6rem;
+    height: 0.2rem;
     background-color: #533738;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     display: block;
@@ -276,20 +280,20 @@ body{
 .gallery__line::after {
     content: '';
     position: absolute;
-    width: 28px;
-    height: 2px;
-    top: -11px;
-    right: -6px;
+    width: 2.8rem;
+    height: 0.2rem;
+    top: -1.1rem;
+    right: -0.6rem;
     background-color: #533738;
     transform: rotate(45deg);
 }
 .gallery__line::before {
     content: '';
     position: absolute;
-    width: 28px;
-    height: 2px;
-    top: 11px;
-    right: -6px;
+    width: 2.8rem;
+    height: 0.2rem;
+    top: 1.1rem;
+    right: -0.6rem;
     background-color: #533738;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     transform: rotate(-45deg);
@@ -297,9 +301,9 @@ body{
 
 .main__team{
 	background-color: #E2C4BA;
-	height: 618px;
-	padding-left: 180px;
-	padding-right: 180px; 
+	height: 61.8rem;
+	padding-left: 18rem;
+	padding-right: 18rem; 
 }
 
 .team__heading{
@@ -308,50 +312,50 @@ body{
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 4rem;
+	line-height: 5rem;
 	display: flex;
 	justify-content: center;
-	padding-top: 50px; 
+	padding-top: 5rem; 
 }
 
 .team__wrapper{
 	display: flex;
-	padding-top: 40px;
+	padding-top: 4rem;
 }
 
 .team__wrapper__block {
-	 margin-left: 20px;
-	 margin-bottom: 7px;
+	 margin-left: 2rem;
+	 margin-bottom: 0.7rem;
 }
 
 .team__text{
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 1.8rem;
+	line-height: 3rem;
 	color: #533738;
 }
 
 .team__work{
 	background-color: #E2C4BA;
-	height: 360px;
-	padding-left: 100px;
-	padding-right: 100px;
+	height: 36rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
 }
 
 .work__heading{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 4rem;
+	line-height: 5rem;
 	text-transform: uppercase;
 	color: #533738;
 	display: flex;
 	justify-content: center;
-	padding: 35px;
+	padding: 3.5rem;
 }
 
 .work__wrapper{
@@ -370,26 +374,26 @@ body{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 1.8rem;
+	line-height: 3rem;
 	text-align: center;
-	padding: 10px;
-	width: 270px;
+	padding: 1rem;
+	width: 27rem;
 }
 
 .work__text__round{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 30px;
-	line-height: 30px;
+	font-size: 3rem;
+	line-height: 3rem;
 	color: #FFFFFF;
 }
 
 .work__round{
-	width: 70px;
-    height: 70px;
-    border: 2px solid #8D7370;
+	width: 7rem;
+    height: 7rem;
+    border: 0.2rem solid #8D7370;
     border-radius: 50%;
     line-height: 10em;  
     background: #8D7370;
@@ -399,20 +403,20 @@ body{
 }
 
 .main__reviews{
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 15rem;
+	margin-right: 15rem;
 }
 
 .reviews__heading{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 4rem;
+	line-height: 5rem;
 	display: flex;
 	justify-content: center;
-	padding: 40px;
-	padding-top: 30px;
+	padding: 4rem;
+	padding-top: 3rem;
 	text-transform: uppercase;
 	color: #533738;
 }
@@ -428,36 +432,36 @@ body{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
-	width: 407px;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	width: 40.7rem;
 }
 
 .author{
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 1.8rem;
+	line-height: 3rem;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 .reviews__wrapper__text{
-	padding-right: 20px;
-	padding-left: 30px;
+	padding-right: 2rem;
+	padding-left: 3rem;
 }
 
 .reviews__wrapper__img{
 	display: flex;
 	flex-direction: column;
-	padding-right: 30px;
+	padding-right: 3rem;
 }
 
 .reviews__img{
-	padding-bottom: 10px;
+	padding-bottom: 1rem;
 }
 
 .reviews__round{
-	width: 72px;
-    height: 72px;
+	width: 7.2rem;
+    height: 7.2rem;
     border-radius: 50%;
     line-height: 10em;  
     display: flex;
@@ -465,12 +469,12 @@ body{
 	align-items: center;
 	background: #CC8B86;
 	color: #F5F2ED;
-	font-size: 25px;
+	font-size: 2.5rem;
 }
 
 .round__text{
 	color: #F5F2ED;
-	font-size: 25px;
+	font-size: 2.5rem;
 }
 
 button{
@@ -489,17 +493,17 @@ button{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 4rem;
+	line-height: 5rem;
 	text-transform: uppercase;
-	padding-top: 50px;
-	padding-bottom: 24px;
+	padding-top: 5rem;
+	padding-bottom: 2.4rem;
 }
 
 .connection__wrapper{
-	margin-left: 180px;
+	margin-left: 18rem;
 	display: flex;
-	margin-right: 100px;
+	margin-right: 10rem;
 }
 
 .connection__text{
@@ -508,36 +512,36 @@ button{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
-	width: 507px;
-	padding-bottom: 40px;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	width: 50.7rem;
+	padding-bottom: 4rem;
 }
 
 .button{
 	background: #CC8B86;
-	padding: 30px 67px 36px 67px;
+	padding: 3rem 6.7rem 3.6rem 6.7rem;
 	color: #533738;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	margin-top: 30px;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	margin-top: 3rem;
 	outline:0;
 	border: 0;
 }
 
 .form-row input {
-    width: 508px;
-    margin: 20px;
+    width: 50.8rem;
+    margin: 2rem;
     font-family: Montserrat, sans-serif;
     background: none;
     border-width: 0;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 0.1rem solid #FFFFFF;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 .form-row input::placeholder {
@@ -549,8 +553,8 @@ button{
     font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	transform: translateY(-35px);
+	font-size: 1.8rem;
+	transform: translateY(-3.5rem);
    transition: all 0.2s ease;
    visibility: hidden;
 }
@@ -559,10 +563,10 @@ button{
 
 .footer{
 	background-color: #E5E5E5;
-	margin-left: 100px;
-	margin-top: 37px; 
-	margin-right: 100px;
-	margin-bottom: 37px;
+	margin-left: 10rem;
+	margin-top: 3.7rem; 
+	margin-right: 10rem;
+	margin-bottom: 3.7rem;
 }
 
 .footer__text{
@@ -570,10 +574,10 @@ button{
 	font-family: 'Montserrat', sans-serif;
     font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 1.8rem;
+	line-height: 3rem;
 	text-decoration: none;
-	margin-left: 30px;
+	margin-left: 3rem;
 }
 
 .text{
@@ -589,15 +593,15 @@ button{
 }
 
 .restangle__title{
-	width: 270px;
+	width: 27rem;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 30px;
-	line-height: 37px;
+	font-size: 3rem;
+	line-height: 3.7rem;
 	text-align: center;
 	color: #FFFFFF;
-	padding-bottom: 20px;
+	padding-bottom: 2rem;
 
 }
 
@@ -605,12 +609,12 @@ button{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 1.8rem;
+	line-height: 3rem;
 	color: #FFFFFF;
-	width: 418px;
-	padding-left: 20px;
-	padding-right: 20px;
+	width: 41.8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .form__karta{
@@ -618,7 +622,7 @@ button{
 }
 
 .big__text:hover{
-	font-size: 47px;
-	line-height: 45px;
+	font-size: 4.7rem;
+	line-height: 4.5rem;
 	z-index: 100;
 }
