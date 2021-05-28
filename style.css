@@ -1,3 +1,5 @@
+@media screen{
+
 *{
 	margin: 0;
 	padding: 0;
@@ -628,8 +630,4 @@ button{
 	display: flex;
 }
 
-.big__text:hover{
-	font-size: 4.7rem;
-	line-height: 4.5rem;
-	z-index: 100;
 }
