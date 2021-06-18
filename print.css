@@ -1,7 +1,12 @@
 @media print {
-	 html { overflow-x: hidden; }
+	 html { overflow-x: hidden; max-width: 1126px; }
 	body{
-		max-width: 1300px;
+		max-width: 1126px; /*ширина 29.7 cm, A3*/
+		margin: 5mm;
+	}
+
+	img{
+		page-break-inside: avoid;
 	}
 	
 	.header{
@@ -11,8 +16,9 @@
 		padding-left: 20px;
 	}
 
-	.skip-link, .menu__nav, .promo__button, .logo__img, .main__team, .gallery__content, .main__reviews, .main__connection{
+	.skip-link, .menu__nav, .promo__button, .logo__img, .main__team, .gallery__content, .main__reviews, .main__connection, .photo-skip{
 		display: none !important;
+	}
 	}
 
 	.logo__text{
@@ -49,6 +55,7 @@
 	.about__heading{
 		display: flex;
 		justify-content: center;
+		font-family: 'Montserrat', sans-serif;
 		padding: 10px;
 		font-size: 40px;
 		margin-top: 40px;
@@ -117,17 +124,12 @@
 	}
 
 	.main__gallery{
-		margin-left: 100px;
-		margin-right: 100px;
+		display: none;
+
 	}
 
 	.gallery__block{
 		display: flex;
-	}
-
-	.gallery__photo {
-		margin-bottom: 20px;
-		margin-right: 20px;
 	}
 
 	.gallery__heading{
@@ -174,7 +176,7 @@
 	}
 
 	.team__work{
-		background-color: #E2C4BA;
+		background-color: white;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -195,6 +197,11 @@
 	.work__wrapper{
 		display: flex;
 		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		max-width: 1126px;
+		width: 90%;
 	}
 
 	.work__element{
