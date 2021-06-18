@@ -1,11 +1,17 @@
 @media print {
 	 html { overflow-x: hidden; max-width: 1126px; }
-	body{
-		max-width: 1126px; /*ширина 29.7 cm, A3*/
+	/*body{
+		max-width: 297mm; /*ширина 29.7 cm, A3
 		margin: 5mm;
 	}
 
 	img{
+		page-break-inside: avoid;
+	}*/
+
+	@page{
+		margin: 5mm;
+		size: a3;
 		page-break-inside: avoid;
 	}
 	
